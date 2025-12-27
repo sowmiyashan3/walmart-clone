@@ -66,7 +66,7 @@ const Login = () => {
             <p className="text-gray-600">
               {isLogin
                 ? 'Welcome back! Sign in to your account'
-                : 'Join Walmart today and start shopping'}
+                : 'Join mart today and start shopping'}
             </p>
           </div>
 
@@ -180,7 +180,7 @@ const Login = () => {
 
           <div className="mt-8 pt-6 border-t">
             <p className="text-xs text-gray-500 text-center">
-              By continuing, you agree to Walmart's Terms of Service and Privacy Policy
+              By continuing, you agree to mart's Terms of Service and Privacy Policy
             </p>
           </div>
         </div>

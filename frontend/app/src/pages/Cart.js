@@ -175,7 +175,7 @@ const Cart = () => {
 
               <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                 <p className="text-sm text-blue-800 font-semibold mb-2">
-                  💳 Walmart+ members save more!
+                  💳 mart+ members save more!
                 </p>
                 <p className="text-xs text-blue-700">
                   Get free delivery on orders over $35

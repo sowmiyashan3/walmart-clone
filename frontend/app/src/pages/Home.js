@@ -115,10 +115,10 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Walmart+ Banner */}
+        {/* mart+ Banner */}
         <div className="mt-8 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg p-8 flex items-center justify-between">
           <div>
-            <h3 className="text-3xl font-bold text-blue-900 mb-2">Try Walmart+ free for 30 days</h3>
+            <h3 className="text-3xl font-bold text-blue-900 mb-2">Try mart+ free for 30 days</h3>
             <p className="text-blue-800 mb-4">Free delivery, member prices, and more!</p>
             <button className="bg-blue-600 text-white px-6 py-3 rounded-full font-bold hover:bg-blue-700">
               Start Free Trial

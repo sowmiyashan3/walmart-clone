@@ -1,4 +1,4 @@
-package com.walmart_clone.auth_service;
+package com.mart_clone.auth_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

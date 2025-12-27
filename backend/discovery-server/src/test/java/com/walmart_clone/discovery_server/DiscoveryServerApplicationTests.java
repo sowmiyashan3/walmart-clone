@@ -1,4 +1,4 @@
-package com.walmart_clone.discovery_server;
+package com.mart_clone.discovery_server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

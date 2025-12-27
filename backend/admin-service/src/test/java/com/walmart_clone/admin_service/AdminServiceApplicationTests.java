@@ -1,4 +1,4 @@
-package com.walmart_clone.admin_service;
+package com.mart_clone.admin_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

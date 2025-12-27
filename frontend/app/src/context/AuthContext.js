@@ -12,7 +12,7 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
-    const savedUser = localStorage.getItem('walmartUser');
+    const savedUser = localStorage.getItem('martUser');
     return savedUser ? JSON.parse(savedUser) : null;
   });
 
@@ -20,9 +20,9 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     if (user) {
-      localStorage.setItem('walmartUser', JSON.stringify(user));
+      localStorage.setItem('martUser', JSON.stringify(user));
     } else {
-      localStorage.removeItem('walmartUser');
+      localStorage.removeItem('martUser');
     }
   }, [user]);
 
@@ -75,7 +75,7 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem('walmartUser');
+    localStorage.removeItem('martUser');
   };
 
   const updateProfile = (updatedData) => {

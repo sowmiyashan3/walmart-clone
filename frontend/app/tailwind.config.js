@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        walmart: {
+        mart: {
           blue: '#0071dc',
           yellow: '#ffc220',
           darkBlue: '#004f9a',

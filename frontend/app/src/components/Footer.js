@@ -5,7 +5,7 @@ const Footer = () => {
     shop: ['All Departments', 'Trending Products', 'New Arrivals'],
     help: ['Track Orders', 'Returns', 'Contact Us'],
     account: ['Sign In', 'Register', 'My Account'],
-    about: ['About Walmart', 'Careers', 'Sustainability']
+    about: ['About mart', 'Careers', 'Sustainability']
   };
 
   return (
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-blue-500 pt-6 text-center text-sm">
-          <p>© 2024 Walmart Clone. All rights reserved.</p>
+          <p>© 2024 mart Clone. All rights reserved.</p>
         </div>
       </div>
     </footer>

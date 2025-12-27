@@ -14,7 +14,7 @@ const Header = () => {
 
   const categories = [
     'Departments', 'Grocery & Essentials', 'Toy Shop', 'Home', 'Fashion',
-    'Electronics', 'Registry', 'ONE Debit', 'Walmart+'
+    'Electronics', 'Registry', 'ONE Debit', 'mart+'
   ];
 
   const handleSearch = (e) => {
@@ -57,7 +57,7 @@ const Header = () => {
               Reorder
             </button>
             <button className="hover:underline">Registry</button>
-            <button className="hover:underline">Walmart+</button>
+            <button className="hover:underline">mart+</button>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ const Header = () => {
               className="text-2xl font-bold cursor-pointer whitespace-nowrap" 
               onClick={handleLogoClick}
             >
-              Walmart
+              mart
             </h1>
           </div>
 
@@ -81,7 +81,7 @@ const Header = () => {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search everything at Walmart online and in store"
+                placeholder="Search everything at mart online and in store"
                 value={searchInput}
                 onChange={(e) => setSearchInput(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSearch(e)}
