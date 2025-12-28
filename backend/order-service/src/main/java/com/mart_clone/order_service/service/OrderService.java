@@ -39,7 +39,7 @@ public class OrderService {
 
         List<OrderItem> items = request.getItems().stream()
             .map(itemReq -> OrderItem.builder()
-                .order(order)   // ✅ now effectively final
+                .order(order)   
                 .productId(itemReq.getProductId())
                 .quantity(itemReq.getQuantity())
                 .price(itemReq.getPrice())
